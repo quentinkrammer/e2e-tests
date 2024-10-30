@@ -1,0 +1,6 @@
+cypress
+- paralelization extra effort
+ - does paralelization matter? (speed)
+ - is paralelization possible with regard to our test strategy? (test data injection)
+- problems with tscongfig references
+- testing multiple tabs is not well supported. hacky workarounds needed.
