@@ -3,6 +3,9 @@ describe("cypress vanilla", () => {
     cy.visit("/");
     cy.get("h1").should("contain.text", "Hello :)");
     cy.wait(3000);
-    cy.get(".e2e-input").type("Chuck Norris");
+
+    cy.get(".e2e-input")
+      .type("Chuck Norris")
+      .should("have.value", "Chuck Norris");
   });
 });
