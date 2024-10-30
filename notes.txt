@@ -4,6 +4,11 @@ cypress
  - is paralelization possible with regard to our test strategy? (test data injection)
 - problems with tscongfig references
 - testing multiple tabs is not well supported. hacky workarounds needed.
+- no multiple browsers at the same time
++ Readability (My opinion and https://www.lambdatest.com/blog/cypress-vs-playwright/)
 
 playwright
 - UI mode buggy (Screenshots go blank is the test has to scroll)
+- multi tab and multi domain tests possible
+- API more complex - stepper learning curve (My opinion and https://www.lambdatest.com/blog/cypress-vs-playwright/)
+- not fool proof (missing "await" cause flaky tests)
