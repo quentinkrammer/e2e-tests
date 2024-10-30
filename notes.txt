@@ -4,3 +4,6 @@ cypress
  - is paralelization possible with regard to our test strategy? (test data injection)
 - problems with tscongfig references
 - testing multiple tabs is not well supported. hacky workarounds needed.
+
+playwright
+- UI mode buggy (Screenshots go blank is the test has to scroll)
