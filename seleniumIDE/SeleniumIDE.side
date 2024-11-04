@@ -1,0 +1,59 @@
+{
+  "id": "35233eb3-fe77-47d2-936d-aa74b6019f4f",
+  "version": "2.0",
+  "name": "SeleniumIDE",
+  "url": "http://localhost:5173/",
+  "tests": [{
+    "id": "24fad5f1-1dfd-49a3-a5c7-ec6f3904bc34",
+    "name": "SomeTest",
+    "commands": [{
+      "id": "1e1b6ce3-b5b4-49f6-9086-3f15511adc52",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9233a124-9fc5-448a-b368-6112dc931cd1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x940",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36db16a6-01cd-4b4b-93a3-e5b3dfef0df4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.e2e-input",
+      "targets": [
+        ["css=.e2e-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae031aed-f3e5-4ce6-902b-0be08da51ff3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.e2e-input",
+      "targets": [
+        ["css=.e2e-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "This is recorded :)"
+    }]
+  }],
+  "suites": [{
+    "id": "7eebe53a-b725-4c1b-b2d5-d135488d85a0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["24fad5f1-1dfd-49a3-a5c7-ec6f3904bc34"]
+  }],
+  "urls": [],
+  "plugins": []
+}
