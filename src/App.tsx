@@ -14,7 +14,12 @@ function App() {
         }}
       >
         <h1>Hello :)</h1>
-        <input disabled={disabled} type="text" className="e2e-input"></input>
+        <input
+          disabled={false}
+          type="text"
+          className="e2e-input"
+          style={{ border: disabled ? "2px solid red" : "2px solid grey" }}
+        ></input>
       </div>
     </>
   );
